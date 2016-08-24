@@ -157,7 +157,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 7 */
 /***/ function(module, exports) {
 
-	module.exports = "<div>\n  <label for=\"{{id}}\" class=\"control-label {{to.labelSrOnly ? 'sr-only' : ''}} {{to.labelClass || ''}}\" ng-if=\"to.label\">\n    {{to.label}}\n    {{to.required ? '*' : ''}}\n  </label>\n  <div class=\"{{to.fieldDivClass || ''}}\"\n  \t<formly-transclude></formly-transclude>\n  </div>\n</div>\n\n"
+	module.exports = "<div>\n  <label for=\"{{id}}\" class=\"control-label {{to.labelSrOnly ? 'sr-only' : ''}} {{to.labelClass || ''}}\" ng-if=\"to.label\">\n    {{to.label}}\n    {{to.required ? '*' : ''}}\n  </label>\n  <div class=\"{{to.fieldDivClass || ''}}\">\n  \t<formly-transclude></formly-transclude>\n  </div>\n</div>\n\n"
 
 /***/ },
 /* 8 */
